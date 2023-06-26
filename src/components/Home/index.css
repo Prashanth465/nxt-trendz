@@ -1,0 +1,62 @@
+/* Write your CSS code here */
+.home-bg {
+  background-color: antiquewhite;
+  padding: 11px 11px 11px 11px;
+  text-align: center;
+  min-height: 90vh;
+}
+.cloth-heading {
+  font-size: 33px;
+  font-weight: bold;
+}
+.clothes-img-mobile {
+  width: 50%;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+.clothes-img-laptop {
+  display: none;
+}
+.shopnow-btn {
+  background-color: crimson;
+  color: aliceblue;
+  padding: 4px 11px 4px 11px;
+  border-radius: 7px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  outline: 0px;
+  border: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px 70px 30px 70px;
+  }
+  .clothes-img-mobile {
+    display: none;
+  }
+  .clothes-img-laptop {
+    width: 35%;
+    display: block;
+  }
+  .text-con {
+    text-align: left;
+    width: 40%;
+  }
+  .cloth-heading {
+    font-size: 40px;
+    margin-bottom: 19px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .home-bg {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
